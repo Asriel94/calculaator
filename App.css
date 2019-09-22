@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  /* background-color: #fb5588; */
+  background: #92cccc;
+}
+
+#Card1 {
+  width: 340px;
+  height: 570px;
+  background: #181818;
+  margin-top: 15px;
+  border-radius: 15px;
+  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#btnc {
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+#btnad {
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+#btnp {
+  margin: 12px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+#btna {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+#btn4,
+#btn5,
+#btn6 {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+#btn7,
+#btn8,
+#btn9 {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+#btn0 {
+  margin: 15px;
+  padding: 10px 40px;
+  border-radius: 25px;
+}
+#btns,
+#btnm,
+#btnd {
+  margin-bottom: 55%;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+#btndot {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+#btne {
+  margin: 15px;
+  padding: 10px 35px;
+  border-radius: 25px;
+  background: #2245ac;
+}
+#Dis {
+  margin-top: 15px;
+  width: 100%;
+  height: 25%;
+  padding: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 150%;
+  font-family: normal;
+}
